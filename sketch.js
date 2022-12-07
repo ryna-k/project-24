@@ -50,14 +50,13 @@ function draw() {
 
   playerArcher.display();
 
- 
     for (var i = 0; i < playerArrows.length; i++) {
       if (playerArrows[i] !== undefined) {
         playerArrows[i].display();
       }
     }
 
-
+  
   // Title
   fill("#FFFF");
   textAlign("center");
@@ -76,6 +75,8 @@ function draw() {
      playerArrows.push(arrow);
    }
  }
+
+
 
 
 function keyReleased() {
